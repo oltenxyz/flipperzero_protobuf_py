@@ -43,11 +43,11 @@ class FlipperProtoException(Exception):
 class FlipperProtoBase:
     """Meta base Class for FlipperProto"""
 
-    def __init__(self, serial_port=None, debug=0) -> None:
+    def __init__(self, serial_port=None, debug=0, in_session=False) -> None:
         # self.info = {}
 
         self._debug = debug
-        self._in_session = False  # flag if connecion if in RPC or command mode
+        self._in_session = in_session  # flag if connecion if in RPC or command mode
         self.version = __version__
 
         self._command_id = 0
