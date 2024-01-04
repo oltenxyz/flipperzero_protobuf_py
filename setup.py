@@ -53,7 +53,7 @@ setup(
     install_requires=[
         'pyreadline; platform_system == "Windows"',
         "numpy==1.26.0",
-        "protobuf==3.20.2",
+        "protobuf==4.25.1",
         "pyserial",
     ],
     entry_points={

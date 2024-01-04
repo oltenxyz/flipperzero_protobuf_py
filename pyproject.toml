@@ -16,7 +16,7 @@ description = "Python bindings for Flipper Zero protobuf protocol"
 
 dependencies = [
   "numpy==1.26.0",
-  "protobuf==4.21.3",
+  "protobuf==4.25.1",
   "pyserial",
   #"protoletariat"
 ]
