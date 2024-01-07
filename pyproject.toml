@@ -15,8 +15,8 @@ authors = [
 description = "Python bindings for Flipper Zero protobuf protocol"
 
 dependencies = [
-  "numpy==1.26.0",
-  "protobuf==4.25.1",
+  "numpy>=1.23.2",
+  "protobuf>=3.12.4",
   "pyserial",
   #"protoletariat"
 ]
@@ -31,7 +31,7 @@ classifiers = [
     "Operating System :: OS Independent",
     "Requires-Dist: protoletariat",
     "Requires-Dist: pyserial",
-    "Requires-Dist: numpy (>=3.21.5)",
+    "Requires-Dist: numpy (>=1.23.2)",
     "Requires-Dist: protobuf (>=3.12.4)",
 ]
 
