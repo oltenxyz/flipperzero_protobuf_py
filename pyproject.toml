@@ -1,4 +1,3 @@
-
 [build-system]
 requires = ["setuptools>=61.0"]
 build-backend = "setuptools.build_meta"
@@ -38,5 +37,5 @@ classifiers = [
 flipperCmd = "flipperzero_protobuf.flipperCmd.flipperzero_cmd:main"
 
 [project.urls]
-"Homepage" = "https://github.com/flipperdevices/flipperzero_protobuf_py"
-"Bug Tracker" = "https://github.com/flipperdevices/flipperzero_protobuf_py/issues"
+"Homepage" = "https://github.com/oltenxyz/flipperzero_protobuf_py"
+"Bug Tracker" = "https://github.com/oltenxyz/flipperzero_protobuf_py/issues"

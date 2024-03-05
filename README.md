@@ -1,7 +1,9 @@
 # Python bindings for Flipper Zero protobuf protocol 
 
-
 Python API binding/wrappers for Flipper Zero protobuf protocol and command line tool
+
+> [!NOTE]  
+> This is a fork based on the [original repo](https://github.com/flipperdevices/flipperzero_protobuf_py) by Flipper Zero. I'm just a guy with no affiliation to Flipper Devices Inc.
 
 ---
 ### flipperCmd ###
