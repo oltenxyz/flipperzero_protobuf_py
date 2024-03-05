@@ -27,10 +27,10 @@ classifiers = [
     "Programming Language :: Python :: 3",
     "License :: OSI Approved :: BSD License",
     "Operating System :: OS Independent",
-    "Requires-Dist: protoletariat",
-    "Requires-Dist: pyserial",
-    "Requires-Dist: numpy (>=3.21.5)",
-    "Requires-Dist: protobuf (>=3.12.4)",
+#    "Requires-Dist: protoletariat",
+#    "Requires-Dist: pyserial",
+#    "Requires-Dist: numpy (>=3.21.5)",
+#    "Requires-Dist: protobuf (>=3.12.4)",
 ]
 
 [project.scripts]
