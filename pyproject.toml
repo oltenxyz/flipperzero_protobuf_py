@@ -6,7 +6,7 @@ build-backend = "setuptools.build_meta"
 [project]
 name = "flipperzero_protobuf"
 keywords = ["flipperzero", "protobuf"]
-#version = "0.1.20220806"
+version = "0.1.20221108"
 authors = [
   { name="flipper devices", email="hello@flipperzero.one" },
   { name="peter shipley", email="peter.shipley@gmail.com" },
