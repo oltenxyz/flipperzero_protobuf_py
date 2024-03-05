@@ -34,8 +34,8 @@ classifiers = [
     "Requires-Dist: protobuf (>=3.12.4)",
 ]
 
-[console_scripts]
-flipperCmd = "flipperzero_protobuf.flipperzero_cmd:main"
+[project.scripts]
+flipperCmd = "flipperzero_protobuf.flipperCmd.flipperzero_cmd:main"
 
 [project.urls]
 "Homepage" = "https://github.com/flipperdevices/flipperzero_protobuf_py"
