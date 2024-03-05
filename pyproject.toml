@@ -3,7 +3,6 @@
 requires = ["setuptools>=61.0"]
 build-backend = "setuptools.build_meta"
 
-
 [project]
 name = "flipperzero_protobuf"
 keywords = ["flipperzero", "protobuf"]
@@ -36,7 +35,7 @@ classifiers = [
 ]
 
 [console_scripts]
-flipperzero_cmd = "flipperzero_protobuf.flipperzero_cmd:main"
+flipperCmd = "flipperzero_protobuf.flipperzero_cmd:main"
 
 [project.urls]
 "Homepage" = "https://github.com/flipperdevices/flipperzero_protobuf_py"
